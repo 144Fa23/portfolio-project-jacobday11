@@ -1,0 +1,81 @@
+/*
+Author: Jacob Day
+Date: 10/9/23
+File Name: styles.css
+*/
+
+/* CSS Reset */
+head, body, header, nav, main, footer, img, title, h1, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-style: solid;
+    border-color: beige;
+}
+
+title {
+    font-family: Palatino, "palatino-linotype";
+    font-weight: bold;
+    color: beige;
+}
+
+h3 {
+    font-family: Palatino, "palatino-linotype";
+    font-weight: bold;
+    color: beige;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    color: beige;
+}
+
+main ul {
+    font-family: Verdana, sans-serif;
+    color: beige;
+}
+
+a {
+    font-family: Verdana, sans-serif;
+    color: orange;
+    text-decoration-line: none;
+}
+
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #000;
+    font color: #fff;
+}
+
+/*
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: Palatino, "palatino-linotype"; 
+    border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+*/
